@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.5 73.5">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 0px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="78.5" height="73.5"/>
+    </clipPath>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g class="cls-1">
+      <image width="25" height="25" transform="scale(3.14 2.94)" xlink:href="../../Downloads/trust-contactpage-img/facebook.png"/>
+    </g>
+  </g>
+</svg>
