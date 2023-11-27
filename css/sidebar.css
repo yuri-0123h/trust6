@@ -385,13 +385,13 @@ right:10px;
   }
   .toggle-btn{
     position: relative;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     padding-right: 5px;
     padding-left: 5px;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .toggle-btn span{
     display: block;
@@ -424,9 +424,9 @@ right:10px;
 }
 .header-right{
   margin-left: auto;
-  padding-right: 5px;
+  margin-right: 5px;
   box-sizing: border-box;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .header-right p{
   color: white;
@@ -568,4 +568,13 @@ nav .dropdown-list ul li:active >.dropdown-list2{
 
 
 
+
+}
+
+@media(max-width: 670px){
+  .header-sp{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
 }
