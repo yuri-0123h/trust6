@@ -214,6 +214,9 @@ overflow:visible;
   margin-right: 12px;
   margin-left: 12px;
 }
+.icon svg{
+  width: 30px;
+}
 
 .search {
   display: flex;
@@ -365,7 +368,7 @@ right:10px;
     display: flex;
     height: 68px;
     border-bottom: 2px solid #666666;
-	  box-sizing: border-box;
+    box-sizing: border-box;
   }
   .header-sp img{
     height: 100%;
@@ -378,8 +381,9 @@ right:10px;
     width: 30px;
     height: 30px;
     cursor: pointer;
-    margin-right: 5px;
-    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
   }
   .toggle-btn span{
     display: block;
@@ -412,7 +416,8 @@ right:10px;
 }
 .header-right{
   margin-left: auto;
-  margin-right: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
 }
 .header-right p{
   color: white;
