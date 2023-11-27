@@ -365,6 +365,7 @@ right:10px;
     display: flex;
     height: 68px;
     border-bottom: 2px solid #666666;
+	  box-sizing: border-box;
   }
   .header-sp img{
     height: 100%;
