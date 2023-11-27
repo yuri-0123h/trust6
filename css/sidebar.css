@@ -1,3 +1,7 @@
+body{
+  box-sizing: border-box;
+}
+
 /* 矢印 */
 .gnavi-list, .arrow{
 	position: relative;
@@ -369,21 +373,25 @@ right:10px;
     height: 68px;
     border-bottom: 2px solid #666666;
     box-sizing: border-box;
+    width: 100%;
   }
   .header-sp img{
     height: 100%;
   }
   .header-sp img:nth-child(1){
-    margin-right: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+
   }
   .toggle-btn{
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     padding-right: 5px;
     padding-left: 5px;
     box-sizing: border-box;
+    border: 1px solid red;
   }
   .toggle-btn span{
     display: block;
@@ -418,6 +426,7 @@ right:10px;
   margin-left: auto;
   padding-right: 5px;
   box-sizing: border-box;
+  border: 2px solid blue;
 }
 .header-right p{
   color: white;
