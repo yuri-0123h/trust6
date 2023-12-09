@@ -5,8 +5,15 @@ $(function () {
   // $(".arrow-sp").on("click", function () {
   //   $(".header-sp-menu").toggleClass("open-menu");
   // });
-  $(".accordion-category").on("click", function () {
-    $("this").next().slideToggle("300");
+  $(".arrow-sp").on("click", function () {
+    $(".accordion-category-box").toggleClass("down");
   });
+
+2
+3
+$('.accordion-category').click(function(){
+    $(this).next().slideToggle(300);
+});
+
 
 });
